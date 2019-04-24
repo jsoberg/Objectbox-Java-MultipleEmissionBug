@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+apply plugin: 'io.objectbox'
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "io.objectbox:objectbox-rxjava:2.2.0"
+
+    testImplementation "junit:junit:4.12"
+}
