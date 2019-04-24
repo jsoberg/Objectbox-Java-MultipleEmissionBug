@@ -7,6 +7,4 @@ import io.objectbox.annotation.Id;
 public class TestEntity {
     @Id
     public long id;
-
-    public Long anotherField;
 }

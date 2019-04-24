@@ -11,10 +11,6 @@
         {
           "id": "1:1143006935553365167",
           "name": "id"
-        },
-        {
-          "id": "2:1259352618887726388",
-          "name": "anotherField"
         }
       ],
       "relations": []
@@ -28,7 +24,9 @@
   "modelVersionParserMinimum": 4,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [],
+  "retiredPropertyUids": [
+    1259352618887726388
+  ],
   "retiredRelationUids": [],
   "version": 1
 }

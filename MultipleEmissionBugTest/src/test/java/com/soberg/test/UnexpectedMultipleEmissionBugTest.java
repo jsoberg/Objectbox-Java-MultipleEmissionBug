@@ -18,10 +18,7 @@ public class UnexpectedMultipleEmissionBugTest extends BaseTest {
     @Before
     public void testSetup() {
         box = store.boxFor(TestEntity.class);
-
-        TestEntity testEntity = new TestEntity();
-        testEntity.anotherField = null;
-        box.put(testEntity);
+        box.put(new TestEntity());
     }
 
     @Test

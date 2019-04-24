@@ -18,10 +18,7 @@ public class ExpectedSingleEmissionTest extends BaseTest {
     @Before
     public void testSetup() throws Exception {
         box = store.boxFor(TestEntity.class);
-
-        TestEntity testEntity = new TestEntity();
-        testEntity.anotherField = null;
-        box.put(testEntity);
+        box.put(new TestEntity());
 
         store.internalThreadPool().submit(() -> {
             // Do nothing.
