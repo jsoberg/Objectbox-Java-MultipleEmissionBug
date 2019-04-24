@@ -1,0 +1,22 @@
+bin/
+gen/
+local.properties
+build/
+out/
+auto-gen/
+/.gradle
+*.stackdump
+
+#IDEA - 
+*.iml
+/.idea/*.xml
+/.idea/libraries
+/.idea/caches
+/.idea/codeStyles
+
+# ObjectBox
+/objectbox/
+objectbox*.dll
+libobjectbox*.so
+default.json.bak
+
