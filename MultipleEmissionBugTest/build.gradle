@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    implementation "io.objectbox:objectbox-rxjava:2.2.0"
+    implementation "io.objectbox:objectbox-rxjava:2.3.4"
 
     testImplementation "junit:junit:4.12"
 }
